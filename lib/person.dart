@@ -1,6 +1,8 @@
+import 'package:freezer/freezer.dart';
 import 'package:json/json.dart';
 
 @JsonCodable()
+@Freezer()
 class Person {
   final String name;
   final int age;
