@@ -2,10 +2,10 @@ import 'package:json/json.dart';
 
 @JsonCodable()
 class Person {
-  String name;
-  int age;
+  final String name;
+  final int age;
 
-  Person(this.name, this.age);
+  const Person({required this.name, required this.age});
 
   void showOutput() {
     print('$name is $age years old.');
