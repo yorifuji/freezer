@@ -8,6 +8,7 @@ environment:
 
 # Add regular dependencies here.
 dependencies:
+  json: ^0.20.4
   # path: ^1.8.0
 
 dev_dependencies:
