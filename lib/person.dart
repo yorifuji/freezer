@@ -1,3 +1,6 @@
+import 'package:json/json.dart';
+
+@JsonCodable()
 class Person {
   String name;
   int age;
